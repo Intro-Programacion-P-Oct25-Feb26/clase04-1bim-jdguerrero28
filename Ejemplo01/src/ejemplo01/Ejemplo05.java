@@ -28,5 +28,6 @@ public class Ejemplo05 {
                 "\n"+ nacimiento); */
         System.out.println(nombreEstudiante+"\t"+apellidoEstudiante);   
         System.out.println(nombreEstudiante+"\n\t"+apellidoEstudiante);   
+        // El "\n" sirve para ir la siguiente linea y el "\t=tab" sirve para separar cuatro espacios en la misma linea.
     }
 }
