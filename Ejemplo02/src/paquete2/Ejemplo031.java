@@ -30,10 +30,10 @@ public class Ejemplo031 {
         System.out.println("Ingrese el año de nacimiento del estudiante");
         nacimiento = entrada.nextInt();
         
-        System.out.printf("Datos del estudiante\n%s\n%s\n%s\n", 
+        System.out.printf("Datos del estudiante\n%s\n%s\n%d\n", 
                 nombre,
                 apellido,
                 nacimiento);
-        
+        // hemos cambiado el %s por porcentaje %d dado que la variable "nacimiento" es entera
     }
 }

@@ -24,13 +24,15 @@ public class Ejemplo2 {
         String nombreAsignatura2;
         double notaAsignatura1;
         double notaAsignatura2;
-        
+         
+                
         System.out.println("Ingrese nombre de asignatura 1");
         nombreAsignatura1 = entrada.nextLine();
         System.out.println("Ingrese nota de asignatura 1");
         notaAsignatura1 = entrada.nextDouble();
         System.out.println("Ingrese nombre de asignatura 2");
-        entrada.nextLine(); // limpieza de buffer
+        entrada.nextLine(); // cuando te regresas de un numérico a una cadena
+                       // se hace una limpieza de buffer con entrada.nextline();
         nombreAsignatura2 = entrada.nextLine();
         System.out.println("Ingrese nota de asignatura 2");
         notaAsignatura2 = entrada.nextDouble();
