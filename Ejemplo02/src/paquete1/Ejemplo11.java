@@ -31,7 +31,7 @@ public class Ejemplo11 {
         System.out.println("Ingrese nota de asignatura 1");
         notaAsignatura1 = entrada.nextDouble();//nextDouble permite recibir un decimal
         
-        
+        // "%2f" significa que se va a recibir un dato decimal y se va a presentar con dos decimales
         System.out.printf("Asignatura 1: %s\nNota 1:%.1f",
                 nombreAsignatura1,
                 notaAsignatura1);
